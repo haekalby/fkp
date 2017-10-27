@@ -1,0 +1,236 @@
+#adminmenuback{
+	z-index: 0;
+}
+
+.stat-6, .stat-12{
+	float: left;
+	height: 400px;
+}
+.stat-6{
+	width: 47%;
+	margin: 0 2% 0 0;
+}
+
+.stat-6:first-child{
+	margin-left: 2%;
+}
+
+.stat-12{
+	width: 96%;
+	margin: 0 2%;
+}
+
+.stat-container{
+	margin-bottom: 20px;
+}
+
+.stat-container:after{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+.jqplot-highlighter-tooltip{
+	padding: 3px 7px !important;
+}
+
+div.jqplot-table-legend-swatch-outline{
+	border: none;
+}
+
+.jqplot-data-label{
+	color: #fff;
+}
+
+#stat_filter{
+	display: inline;
+}
+
+#stat_filter select{
+	border: none;
+}
+
+.hide{
+	display: none;
+}
+.et-act-confirm {
+	margin-left: 5px;
+}
+/**==============================
+ * MEMBERS
+ *===============================*/
+.et-container .title{
+	font-size: 1.3em;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ebebf2;
+	color: #60606e;
+}
+
+.et-member-search{
+}
+
+.et-member-search .et-search-role{
+	width: 150px;
+	float: left;
+	display: block;
+	height: 37px;
+}
+
+.et-member-search .et-search-role select{
+	height: auto !important;
+	border: none;
+	width: auto;
+	margin-top: 8px;
+}
+
+.et-member-search .et-search-role select:focus{
+	border: none;
+	box-shadow: none;
+}
+
+.et-member-search .et-search-input{
+	display: block;
+	height: 37px;
+	margin-left: 170px;
+	position: relative;
+}
+
+.et-input{
+	width: 100%;
+	box-sizing: border-box;
+	height: 36px;
+	line-height: 24px;
+	border: 1px solid #e5e5ea;
+	border-top-color: #C5C5Ca;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	padding: 3px 10px;
+	color: #9c9c9c;
+}
+
+.et-member-search .et-search-input input{
+	padding-right: 35px;
+}
+
+.et-member-search .et-search-input input.disabled{
+	background-color: #fff;
+}
+
+.et-search-input .et-search-ico{
+	z-index: 9;
+	position: absolute;
+	right: 9px;
+	top: 12px;
+	background: url('../../img/glyphicons-halflings.png') 0 0 no-repeat;
+	background-position: -46px 0px;
+	width: 20px;
+	height: 20px;
+}
+
+.et-members-list .title{
+	margin-bottom: 0;
+}
+
+.et-members-list > ul{
+	margin: 0 0 10px 0;
+}
+
+.et-members-list > ul .et-act a:hover{
+	text-decoration: none;
+}
+
+.et-member .et-mem-container{
+	height: 60px;
+	padding: 16px 0 10px 0;
+	border-top: 1px solid #ecebf1;
+}
+
+.et-member:first-child .et-mem-container{
+	border-top: 0;
+}
+
+.et-mem-container .et-mem-avatar{
+	display: block;
+	float: left;
+	width: 50px;
+}
+
+.et-mem-container .et-mem-avatar img{
+	width: 35px;
+	height: 35px;
+	border-radius: 20px;
+	margin: 0 0 0 10px;
+}
+
+.et-mem-detail{
+	margin: 0 250px 0 60px;
+	font-size: 12px;
+	line-height: 20px;
+}
+
+.et-mem-detail .et-mem-top{ color: #727272; }
+
+.et-mem-detail .et-mem-top > span,
+.et-mem-detail .et-mem-bottom > span { 
+	margin-right: 10px; 
+}
+.et-mem-detail .icon:before{
+	margin-right: 3px;
+}
+
+.et-mem-detail .et-mem-top .name{
+	font-size: 16px;
+	font-weight: bold;
+}
+.et-mem-detail .et-mem-top .thread{}
+.et-mem-detail .et-mem-top .comment{}
+
+.et-mem-detail .et-mem-bottom{ color: #b3b3b3; }
+
+.et-mem-detail .et-mem-bottom .date{}
+.et-mem-detail .et-mem-bottom .loc{}
+
+.et-mem-container .ban-badge{
+	display: inline-block;
+	line-height: 35px;
+	width: 220px;
+	margin: 0 10px 0 0;
+	padding: 0 10px;
+	font-weight: bold;
+}
+
+.et-act{
+	display: block;
+	float: right;
+	text-align: left;
+	width: 270px;
+	position: relative;
+	padding-right: 10px;
+}
+.et-act .et-button-select{
+	display: inline-block;
+	margin-right: 10px;
+}
+.et-act-select{}
+.et-act-ban {
+	text-decoration: none;
+}
+
+.et-act-unban, .et-act-unban:hover{
+	color: #e74c3c;
+}
+
+.et-act-ban:hover{
+	color: #be3628;
+}
+
+/** ---- BAN ---- */
+#ban_modal .modal-dialog{
+	margin-top: 10%;
+}
+
+.dialog-form-item textarea{
+	width: 100%;
+	height: 100px;
+}

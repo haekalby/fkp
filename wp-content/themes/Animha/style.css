@@ -1,0 +1,483 @@
+/*
+Theme Name:     Animha
+Theme URI:      http://bayucandra.com
+Description:    Child theme for ForumEngine theme
+Author:         Bayu Candra
+Author URI:     http://www.enginetheme.com/
+Template:       forumengine
+Version:        1.0
+
+*/
+/* base */
+body { margin: 0; background: #777777; font-size: 14px; color: #7b7b7b; font-family: "Open Sans", Arial, Helvetica, sans-serif !important;}
+button, input, select, textarea { font-family: "Open Sans", Arial, Helvetica, sans-serif !important; color: #7b7b7b; max-width: 100%;}
+a, a:visited, a:focus { color: #3b3b3b; text-decoration: none; font-weight:normal; }
+a:hover {color: #95a5a6;  text-decoration: none; }
+a.un:hover{ text-decoration: underline; }
+input[type="search"], input[type="email"], input[type="text"], input[type="password"] { font-family: "Open Sans", Arial, Helvetica, sans-serif; color: #0b0300;}
+ul,ol, li {margin:0; padding:0;}
+p {font-size: 14px; margin:0; line-height:22px;}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .title-thread {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif !important;
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+::selection {
+	background: #77c3f6; /* Safari */
+	color: #fff;
+	}
+::-moz-selection {
+	background: #77c3f6; /* Firefox */
+	color: #fff;
+}
+
+/*--- header--*/
+.bg-header{
+	background: #2c3e50;
+}
+
+.profile-account .name a,
+.header-top .login a{
+	color: #ffffff;
+	}
+.profile-account .name a:hover,
+.header-top .login a:hover{
+	color: #d7efff;
+	}
+
+
+/*---searchbar modif---*/
+.search-header .btn{
+	height: 40px;
+	width: 40px;
+	background: #1abc9c;
+	box-shadow: none;
+	border: none;
+	float: right;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius:0px;
+	color:#fff;
+}
+.search-header .btn:hover{
+	background: #48c9b0;
+}
+.search-header .btn:active{
+	background: #16a085;
+}
+
+.search-header input[type="text"]
+{
+	border-top-right-radius: 0px;
+	border-bottom-right-radius:0px;
+}
+
+
+
+
+.search-text input#search_field{
+  width: 150px;
+  background: #FFF;
+  border: none;
+   
+  -webkit-transition: width .55s ease;
+  -moz-transition: width .55s ease;
+  -ms-transition: width .55s ease;
+  -o-transition: width .55s ease;
+  transition: width .55s ease;
+}
+
+.search-text input#search_field::-webkit-input-placeholder {
+   color: #65737e;
+}
+ 
+.search-text input#search_field:-moz-placeholder { /* Firefox 18- */
+   color: #65737e;  
+}
+ 
+.search-text input#search_field:-ms-input-placeholder {  
+   color: #65737e;  
+}
+
+.search-text input#search_field:focus, .search-text input#search_field:active{
+  outline:none;
+  width: 350px;
+}
+ 
+.search-text:hover input#search_field{
+width: 350px;
+}
+ 
+.search-text:hover .icon{
+  color: #93a2ad;
+}
+
+.search-preview{
+	border: 1px solid #f0f0f0;
+	background: #fff;
+	border-radius: 3px;
+	position: absolute;
+	top: 45px;
+	left: 120px;
+	right: 15px;
+	z-index: 9;
+	text-align: left;
+	-moz-box-shadow: #7b7b7b 0px 0px 13px -2px;
+	webkit-box-shadow: #7b7b7b 0px 0px 13px -2px;
+	box-shadow: #7b7b7b 0px 0px 13px -2px;
+	display: none;
+}	
+/*----category widget-------*/
+.widget ul.category-items > li a.cat-item{
+	display: block;
+	padding: 5px 24px 5px 30px;
+	position: relative;
+}
+
+.widget ul.category-items > li a.cat-item .flags{
+	top: 9px;
+	left: 0;
+	
+}
+
+.flags{
+	border-radius: 10px;
+}
+/*=========== Statistics WIDGET ===========*/
+.statistics{
+	background:#FFFFFF;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	margin-top:10px;
+	border: 1px solid #f7f7f7;
+}
+.statistics ul li{
+	padding:10px 20px;
+	border-bottom: none;
+}
+
+/*=========== List Post ===========*/
+
+.list-post .thumb {
+	height:40px;
+	width:40px;
+}
+
+.list-post .thumb img,
+.items-thread .img-circle {
+	max-height:40px;
+	max-width:40px;
+}
+
+.list-post .title a {
+	margin-top:0;
+	font-size:16px;
+}
+.list-post li:hover, .list-post li.highlights  {
+	background:#f7f7f7;
+	
+}
+
+.list-post li {
+	margin-bottom:0px;
+	min-height:auto;
+	background:#fff;
+}
+
+.post-information {
+	margin-top:2px;
+}
+.items-thread .name .active,
+.post-information .like.active {
+    color: #e74c3c !important;/*merah*/
+}
+
+.items-thread .comment .active,
+.post-information .comment.active {
+    color: #2ecc71 !important;/*hijau*/
+}
+
+.f-floatright {margin-left: 50px;}
+
+ul#main_list_post, ul.list-post {margin-top:0px !important;}
+/* ================== WP LINK MODAL STYLE ================== */
+ul.hashtags-items li a {
+	background: #3498db;
+	color: #ffffff;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+}
+ul.hashtags-items li a:hover {
+	color: #ffffff;
+}
+
+
+
+.content a, .replies-container a {
+	color: #3498db;
+}
+
+/* ================== Feedzy RSS ================== */
+.feedzy-rss .rss_item {
+    border-bottom:none;
+    list-style: none;
+	padding:0px 0px 10px 0px !important;
+	}
+.feedzy-rss .rss_item a {
+	font-size:12px;
+	color:#3498db;
+}
+.feedzy-rss .rss_item .rss_content small {
+
+font-size:11px;
+color:#b3b3b3;
+}
+	
+.widget .textwidget {
+padding:0px;
+}
+
+/* ================== THREAD LOOP/LIST ================== */
+/*
+
+.list-post .thumb{
+	float: none;
+}
+
+.thread-item .thumb.avatar {
+	position: relative;
+	border-radius: 0;
+	margin-right:5px;
+	/*font-size:12px;
+	font-weight:bold;
+}
+
+
+.thread-item .type-category{
+	position: relative;
+	margin-left: 20px;
+	font-size: 0.9em;
+	color: #777777;
+}
+.thread-item .type-category a{
+	color: #777777;
+	font-size: 1em;
+	margin-right: -3px;
+}
+.thread-item .type-category .flags{
+	
+	display: block;
+	top: 2px;
+	left: -17px;
+}
+
+
+.thread-item{
+	box-shadow: 1px 1px 0px 1px rgba(0,0,0,0.07);
+	-webkit-box-shadow: 1px 1px 0px 1px rgba(0,0,0,0.07);
+	-moz-box-shadow: 1px 1px 0px 1px rgba(0,0,0,0.07);
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	
+}
+
+
+
+.post-information .author .last-reply,
+.post-information .author .semibold  {
+	display:none;
+}
+
+.thread-item .post-information .fs-badge {
+	background: #777777;
+	font-size:8px;
+	padding:2px 5px 2px 5px;
+	margin:0px 5px 0px 5px;
+	border-radius:3px;
+	color:#ffffff;
+}
+*/
+.post-information .author{
+	font-size: 0.95em;
+	color: #b3b3b3;
+	margin-right:10px;
+	word-spacing: 1px;
+	}
+.fs-entry-content p {
+	font-size:12px;
+	margin-top:5px;
+	
+}
+/* ================== SINGLE THREAD ================== 
+.judul-thread {
+	display: block;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.1em;
+	margin-top: 2px;
+	width: 100%;
+	word-wrap: break-word;
+	}
+.single-thread .thread-reply,
+.items-thread {
+	margin-top:7px;
+}
+
+.single-thread .item-thread,
+.single-thread .items-thread {
+	background:#FFFFFF;
+	padding: 14px 17px;
+	-webkit-box-shadow: 1px 1px 0px 1px rgba(0,0,0,0.07);
+	-moz-box-shadow: 1px 1px 0px 1px rgba(0,0,0,0.07);
+	box-shadow: 1px 1px 0px 1px rgba(0,0,0,0.07);
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	
+}
+.single-thread .items-thread .reply-item,
+.single-thread .items-thread .edit-reply {
+	padding: 0px 0px 0px 0px;
+	box-shadow: none;
+} 
+
+.reply-item .control-thread {
+	padding: 14px 17px;
+}
+
+.items-thread,
+.items-thread.child,
+.items-thread .linke-by {
+	border:none !important;
+}
+
+.form-reply form {
+	height:20%;
+}
+.edit-reply .button-event {
+	margin:10px 0px 30px 0px;
+}
+*/
+/* ================== FOLLOW AND UNFOLLOW SINGLE THREAD ================== */
+.thread-infor a {
+	font-size: 1.2em;
+}
+
+/* ================== PROFILE PAGE ================== */
+
+.infor-profile {
+	background-color:#ffffff !important;
+	height: auto;
+	padding: 14px;
+	border-radius:3px;
+	}
+
+.img-profile .avatar {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	float:none;
+}
+
+.infor-profile .text{
+	float: none;
+	margin-top:0px;
+	min-width: 100px;
+	text-align:center;
+	
+}
+.infor-profile .text .name{
+	font-size:18px;
+}
+ .infor-profile .text .address{
+	font-size:15px;
+	margin-bottom:10px;
+}
+.infor-profile .button-event{
+	position: relative;
+	top: 0;
+	right: 0;
+	font-size: 1.0em !important;
+	clear:both
+
+}
+.infor-profile .button-event .btn {
+	clear:both;
+	width:100%;
+	position:relative;
+}
+.infor-profile .intro{
+ 	clear:both;
+ 	width: auto;
+ 	margin:auto;
+ 	font-size: 1.0em;
+ 	line-height: 1.6em;
+	text-align: center;
+
+}
+
+.contact-user {
+	clear:both;
+	display:none;
+}	
+
+
+.logo-header img {
+	max-height:40px;
+}
+*
+
+.form-detail .show-preview 
+{display:none;}
+
+.bold {font-weight:600 !important;}
+/* ================== Hidden customizer ================== */
+#customizer_trigger { display:none !important;}
+
+
+/* ================== Modal Login ================== */
+
+.modal .btn {
+	background:#3498db;
+}
+
+.modal .btn:hover {
+	background:#2175ad;
+}
+
+input.fe-checkbox[type="checkbox"] + label,
+.btn-submit a,
+.modal input[type=text],
+.modal input[type=password],
+.modal textarea{
+	color:#555555 !important;
+}
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #555555  !important;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #555555  !important;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #555555  !important;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #3498DB;
+}
+
+/* ================== Edit profil ================== */
+
+.head-edit-profile .btn-profile {
+	margin-top: -125px;
+}
+
+.main-edit-profile .form-horizontal {
+    padding-top: 0px;
+    
+}

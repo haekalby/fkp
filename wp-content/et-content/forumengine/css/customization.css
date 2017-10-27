@@ -1,0 +1,301 @@
+.thread-form .text-search,
+.mceIframeContainer {
+  border: 1px solid #e6e6e6;
+  background: none;
+  border-color: #e6e6e6 !important;
+}
+.thread-form .form-horizontal textarea,
+.thread-form  .form-horizontal input[type="text"] {
+  border: 1px solid #e6e6e6;
+  background: none;
+  border-color: #e6e6e6 !important;
+}
+.items-thread .form-horizontal textarea,
+.items-thread  .form-horizontal input[type="text"] {
+  border: 1px solid #e6e6e6;
+  background: none;
+  border-color: #e6e6e6 !important;
+}
+.wp-editor-container {
+  border-color: #e6e6e6 !important;
+  background: none;
+}
+.search-header input[type="text"] {
+  background-color: #f0f0f0;
+  border: 2px solid #f0f0f0;
+}
+body {
+  background-color: #ffffff;
+  background-image: url(http://kpb8304g42.kemenkeu.go.id/fkp/wp-content/themes/forumengine/img/patterns/pattern.png);
+  background-repeat: repeat;
+  font-family: Open Sans, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #3b3b3b;
+}
+.search-header .btn,
+#wp-link-1 .btn,
+.upload-url .button-event .btn {
+  background: #2583c2;
+}
+.search-header .btn:hover,
+#wp-link-1 .btn:hover,
+.upload-url .button-event .btn:hover {
+  background: #2175ad;
+}
+.search-header .btn:active,
+#wp-link-1 .btn:active,
+.upload-url .button-event .btn:active {
+  background: #1d6697;
+}
+.button-event .btn {
+  background: #3ea3e6;
+}
+.button-event .btn:hover {
+  background: #2798e3;
+}
+.button-event .btn:active {
+  background: #1c8bd5;
+}
+.bg-header,
+.dropdown-profile .head {
+  background: #3498db;
+  color: #ffffff;
+}
+.dropdown-profile .arrow-up {
+  border-bottom: 7px solid #3498db;
+}
+.dropdown-profile .list-profile li a:hover,
+.widget li a:hover {
+  color: #2583c2;
+}
+.profile-account .name {
+  border-left: 1px solid #258cd1;
+}
+.notice-noresult,
+.list-post li.highlights,
+.infor-profile,
+.content-edit-profile .main-edit-profile,
+.widget ul.category-items > li a.cat-item.current,
+.dropdown-profile .content-profile {
+  background-color: #f0f0f0;
+}
+.wp-editor-container .quicktags-toolbar,
+.wp-editor-container .wp_themeSkin tr.mceFirst td.mceToolbar {
+  background-color: #f0f0f0;
+}
+.text-search .btn-group .line {
+  border-left: 1px solid #e6e6e6;
+}
+.single-thread .item-thread {
+  border-top: 1px solid #e6e6e6;
+}
+.content-edit-profile .head-edit-profile .avatar,
+.img-profile .avatar {
+  border: 6px solid #f2f2f2;
+}
+.widget_calendar th,
+.widget_calendar td {
+  border: 1px solid #e6e6e6;
+}
+.pagination ul > li.next > a,
+.pagination ul > li.prev > a,
+.pagination ul > li > a.next,
+.pagination ul > li > a.prev {
+  border: #ffffff;
+}
+.pagination ul > li.active > a,
+.pagination ul > li > a.current,
+.pagination ul > li > span.current {
+  background: #2583c2;
+}
+.pagination ul > li:hover > a {
+  background-color: #f0f0f0;
+  border: 1px solid #f2f2f2;
+}
+.nav-link li {
+  border-top: 5px solid #e6f2fa;
+  background-color: #e6f2fa;
+}
+.nav-link li.active {
+  background-color: #ffffff;
+  background-image: url(http://kpb8304g42.kemenkeu.go.id/fkp/wp-content/themes/forumengine/img/patterns/pattern.png);
+  background-repeat: repeat;
+  font-family: Open Sans, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #3b3b3b;
+}
+.skin-checkbox {
+  background: #e6e6e6;
+}
+.side-bar h2,
+.items-thread,
+.thread-discuss-right h1 {
+  border-bottom: 1px solid #f2f2f2;
+}
+.page-not .btn.back-home {
+  background: #3ea3e6;
+}
+.page-not .btn.back-home:hover {
+  background: #2798e3;
+}
+.page-not .btn.back-home:active {
+  background: #1c8bd5;
+}
+.header-bottom,
+.footer {
+  background: #e6f2fa;
+  color: #999999;
+}
+.footer .nav li a,
+.nav-link li a {
+  color: #3b3b3b;
+}
+.nav-link li.active a {
+  color: #3b3b3b;
+}
+.footer .social li {
+  border: 1px solid #e6f2fa;
+  border-left: none;
+  border-right: none;
+}
+.left-sidebar .container .col-md-9 {
+  float: right;
+}
+.left-sidebar .container .col-md-3 {
+  float: left;
+}
+.one-column .container .col-md-3 {
+  display: none !important;
+}
+.one-column .container .col-md-9 {
+  width: 100% !important;
+}
+.nav-link li.active {
+  border-top: 5px solid #2583c2 !important;
+}
+.line-correct {
+  border-left: 2px solid #2583c2 !important;
+}
+.list-post li.highlights .title a {
+  color: #3b3b3b;
+}
+.tooltip-inner {
+  background-color: #3ea3e6;
+  color: #999999;
+}
+.tooltip.top .tooltip-arrow {
+  border-top-color: #3ea3e6;
+}
+.tooltip.top-left .tooltip-arrow {
+  border-top-color: #3ea3e6;
+}
+.tooltip.top-right .tooltip-arrow {
+  border-top-color: #3ea3e6;
+}
+.tooltip.right .tooltip-arrow {
+  border-right-color: #3ea3e6;
+}
+.tooltip.left .tooltip-arrow {
+  border-left-color: #3ea3e6;
+}
+.tooltip.bottom .tooltip-arrow {
+  border-bottom-color: #3ea3e6;
+}
+.tooltip.bottom-left .tooltip-arrow {
+  border-bottom-color: #3ea3e6;
+}
+.tooltip.bottom-right .tooltip-arrow {
+  border-bottom-color: #3ea3e6;
+}
+.title-thread {
+  font-family: Open Sans, Arial, Helvetica, sans-serif !important;
+  font-size: 18px !important;
+  font-style:  !important;
+}
+.widget .textwidget,
+.widget_pages ul {
+  background-color: #f0f0f0;
+}
+.widget h2 {
+  border: 1px solid #e6e6e6;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+}
+.modal .modal-content,
+#wp-link-1 .modal-content {
+  border-top: 5px solid #2583c2;
+}
+.bubblingG span {
+  background: #2583c2;
+}
+@-moz-keyframes bubblingG {
+  0% {
+    width: 10px;
+    height: 10px;
+    background-color: #2583c2;
+    -moz-transform: translateY(0);
+  }
+  100% {
+    width: 24px;
+    height: 24px;
+    background-color: #FFFFFF;
+    -moz-transform: translateY(-21px);
+  }
+}
+@-webkit-keyframes bubblingG {
+  0% {
+    width: 10px;
+    height: 10px;
+    background-color: #2583c2;
+    -webkit-transform: translateY(0);
+  }
+  100% {
+    width: 24px;
+    height: 24px;
+    background-color: #FFFFFF;
+    -webkit-transform: translateY(-21px);
+  }
+}
+@-ms-keyframes bubblingG {
+  0% {
+    width: 10px;
+    height: 10px;
+    background-color: #2583c2;
+    -ms-transform: translateY(0);
+  }
+  100% {
+    width: 24px;
+    height: 24px;
+    background-color: #FFFFFF;
+    -ms-transform: translateY(-21px);
+  }
+}
+@-o-keyframes bubblingG {
+  0% {
+    width: 10px;
+    height: 10px;
+    background-color: #2583c2;
+    -o-transform: translateY(0);
+  }
+  100% {
+    width: 24px;
+    height: 24px;
+    background-color: #FFFFFF;
+    -o-transform: translateY(-21px);
+  }
+}
+@keyframes bubblingG {
+  0% {
+    width: 10px;
+    height: 10px;
+    background-color: #2583c2;
+    transform: translateY(0);
+  }
+  100% {
+    width: 24px;
+    height: 24px;
+    background-color: #FFFFFF;
+    transform: translateY(-21px);
+  }
+}

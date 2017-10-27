@@ -1,0 +1,3 @@
+[submodule "includes/core"]
+	path = includes/core
+	url = https://github.com/YoungWorldTechnology/engine.git
